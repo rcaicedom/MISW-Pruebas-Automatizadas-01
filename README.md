@@ -31,14 +31,14 @@
 |10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado|Andres Sanchez|
 |11| Login y Crear miembo |Romy Caicedo|
 |12| Login y editar profile |Romy Caicedo|
-|13| Crear tag interno y validar en lista|Romy Caicedo|
-|14| Crear tag publico y validar en lista |Romy Caicedo|
-|15| Editar Tag interno y validar en lista |Romy Caicedo |
-|16| Editar Tag publico y validar en lista |Romy Caicedo|
+|13| Crear tag interno |Romy Caicedo|
+|14| Crear tag publico |Romy Caicedo|
+|15| Editar Tag interno |Romy Caicedo |
+|16| Editar Tag publico  |Romy Caicedo|
 |17| Borrar un tag y validar que ya no este en la lista |Romy Caicedo|
 |18| Editar settings general, editar title y guardar el cambio |Romy Caicedo|
-|19| Entrar a settings, consultar historial y aplicar filtro|Romy Caicedo|
-|20| Login, eliminar un miembro y revisar que ya no exista en la lista |Romy Caicedo|
+|19| Entrar a settings,entrar a staff , añadir staff y guardar|Romy Caicedo|
+|20| Login y eliminar un miembro |Romy Caicedo|
 
 
 ## 📒 Pasos para ejecutar los escenarios de prueba con Kraken 🐙
