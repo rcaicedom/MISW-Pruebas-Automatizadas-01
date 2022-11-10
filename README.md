@@ -17,28 +17,28 @@
 | Crear Post ||
 | Registro para crear cuenta ||
 
-|#| Casos de pruebas Kraken 🐙 | Descripcion |
+|#| Casos de pruebas Kraken 🐙 | Asignado a |
 |--- |------ |----|
-|1| Crear y publicar un post||
-|2| Crear y publicar un post en el sitio web ||
-|3| Crear un post -> editarlo -< escribir fecha de publicacion en el futuro -> verificar error  ||
-|4| Publicar una nueva página ||
-|5| Guardar pagina como borrador y publicarla ||
-|6| Crear Draft post, validarlo en la lista| |
-|7| Crear 2 post, ordenar la lista por el mas nuevo, validar en la lista que el post mas reciente esté de primeras ||
-|8| Crear post, ir al sitio web, validar que esté, volver y eliminarlo, ir de nuevo al sitio web y validar que NO esté ||
-|9| Crear draft page, ir a lista y verificar que exista||
-|10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado||
-|11| Añadir miembros no valida nombre ni email bien ||
-|12| Validar nombre registro ||
-|13| Validar nombre registro ||
-|14| Editar Tags ||
-|15| Editar Tags | |
-|16| Crear Página ||
-|17| Crear Página acepta imagenes corruptas ||
-|18| Crear Tags ||
-|19| Crear Tags ||
-|20| Crear Tags ||
+|1| Crear y publicar un post|Andres Sanchez|
+|2| Crear y publicar un post en el sitio web |Andres Sanchez|
+|3| Crear un post -> editarlo -< escribir fecha de publicacion en el futuro -> verificar error  |Andres Sanchez|
+|4| Publicar una nueva página |Andres Sanchez|
+|5| Guardar pagina como borrador y publicarla |Andres Sanchez|
+|6| Crear Draft post, validarlo en la lista| Andres Sanchez|
+|7| Crear 2 post, ordenar la lista por el mas nuevo, validar en la lista que el post mas reciente esté de primeras |Andres Sanchez|
+|8| Crear post, ir al sitio web, validar que esté, volver y eliminarlo, ir de nuevo al sitio web y validar que NO esté |Andres Sanchez|
+|9| Crear draft page, ir a lista y verificar que exista|Andres Sanchez|
+|10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado|Andres Sanchez|
+|11| Login y Crear miembo |Romy Caicedo|
+|12| Login y editar profile |Romy Caicedo|
+|13| Crear tag interno y validar en lista|Romy Caicedo|
+|14| Crear tag publico y validar en lista |Romy Caicedo|
+|15| Editar Tag y validar en lista |Romy Caicedo |
+|16| Borrar un tag y validar que ya no este en la lista |Romy Caicedo|
+|17| Crear Página acepta imagenes corruptas |Romy Caicedo|
+|18| Editar settings general y guardar el cambio |Romy Caicedo|
+|19| Entrar a settings, consultar historial y aplicar filtro|Romy Caicedo|
+|20| Login, eliminar un miembro y revisar que ya no exista en la lista |Romy Caicedo|
 
 
 ## 📒 Pasos para ejecutar los escenarios de prueba con Kraken 🐙
