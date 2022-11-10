@@ -36,7 +36,7 @@
 |15| Editar Tag interno y validar en lista |Romy Caicedo |
 |16| Editar Tag publico y validar en lista |Romy Caicedo|
 |17| Borrar un tag y validar que ya no este en la lista |Romy Caicedo|
-|18| Editar settings general y guardar el cambio |Romy Caicedo|
+|18| Editar settings general, editar title y guardar el cambio |Romy Caicedo|
 |19| Entrar a settings, consultar historial y aplicar filtro|Romy Caicedo|
 |20| Login, eliminar un miembro y revisar que ya no exista en la lista |Romy Caicedo|
 
