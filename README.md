@@ -37,7 +37,7 @@
 |16| Editar Tag publico  |Romy Caicedo|
 |17| Borrar un tag y validar que ya no este en la lista |Romy Caicedo|
 |18| Editar settings general, editar title y guardar el cambio |Romy Caicedo|
-|19| Entrar a settings,entrar a staff , invitar staff|Romy Caicedo|
+|19| Entrar a settings, entrar a navigation, cambiar nombre de navigation about, guardar cambio|Romy Caicedo|
 |20| Login y eliminar un miembro |Romy Caicedo|
 
 
