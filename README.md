@@ -26,7 +26,7 @@
 |5| Guardar pagina como borrador y publicarla |Andres Sanchez|
 |6| Crear Draft post, validarlo en la lista| Andres Sanchez|
 |7| Crear 2 post, ordenar la lista por el mas nuevo, validar en la lista que el post mas reciente esté de primeras |Andres Sanchez|
-|8| Crear post, ir al sitio web, validar que esté, volver y eliminarlo, ir de nuevo al sitio web y validar que NO esté |Andres Sanchez|
+|8| Crear y eliminar un page|Andres Sanchez|
 |9| Crear draft page, ir a lista y verificar que exista|Andres Sanchez|
 |10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado|Andres Sanchez|
 |11| Login y Crear miembo |Romy Caicedo|
