@@ -18,7 +18,7 @@
 | Registro para crear cuenta ||
 
 |#| Casos de pruebas Kraken 🐙 | Descripcion |
-| |------ |----|
+|--- |------ |----|
 |1| Crear y publicar un post||
 |2| Crear y publicar un post en el sitio web ||
 |3| Crear un post -> editarlo -< escribir fecha de publicacion en el futuro -> verificar error  ||
