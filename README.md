@@ -1,5 +1,11 @@
 # Ejercicio Kraken 🐙 y ...
 
+## ✒️ Integrantes 
+
+* **Romy Caicedo Molano** - r.caicedom@uniandes.edu.co
+* **Andres Sanchez** - a.sanchez2001@uniandes.edu.co
+* **Jesus Diaz** - jd.diazd1@uniandes.edu.co
+* **Juan Camilo Hernandez Parra** - jc.hernandezp1@uniandes.edu.co
 
 ## Funcionalidades seleccionadas
 
