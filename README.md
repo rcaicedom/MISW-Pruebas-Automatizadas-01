@@ -17,7 +17,7 @@
 | Crear Post ||
 | Registro para crear cuenta ||
 
-|#| Casos de pruebas Kraken 🐙 | Asignado a |
+|#| Escenarios de pruebas Kraken 🐙 | Asignado a |
 |--- |------ |----|
 |1| Crear y publicar un post|Andres Sanchez|
 |2| Crear y publicar un post en el sitio web |Andres Sanchez|
