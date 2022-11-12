@@ -13,9 +13,11 @@
 | ------ | ---- |
 | LogIn a la aplicación  | |
 | Añadir miembros ||
+| Eliminar Miembros ||
 | Crear Tags ||
 | Crear Post ||
-| Registro para crear cuenta ||
+| Crear page ||
+| Cambiar datos profile ||
 
 |#| Escenarios de pruebas Kraken 🐙 | Asignado a |
 |--- |------ |----|
@@ -29,7 +31,7 @@
 |8| Crear y eliminar un page|Andres Sanchez|
 |9| Crear draft page, ir a lista y verificar que exista|Andres Sanchez|
 |10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado|Andres Sanchez|
-|11| Login y Crear miembo |Romy Caicedo|
+|11| Login y Crear miembro |Romy Caicedo|
 |12| Login y editar profile |Romy Caicedo|
 |13| Crear tag interno |Romy Caicedo|
 |14| Crear tag publico |Romy Caicedo|
@@ -65,9 +67,23 @@
 |21| Login y eliminar un miembro                                                                                    | Juan Hernandez  |
 
 ## 📒 Pasos para ejecutar los escenarios de prueba con Kraken 🐙
-> **Inserte aqui pasos**
+
+Para ejecutar estos casos debe tener intalado kraken, si no lo tiene instalelo: 
+```sh
+npm install kraken-node -g
+```
+**Pasos primeros 10 test**
 > 
-> Add pasos
+> Al tener el repositorio en su local, entre a la carpeta Kraken alli podrá ejecutar los test con el comando 
+> ./node_modules/kraken-node/bin/kraken-node run
+
+**Pasos siguientes 10 test**
+
+> Al tener el repositorio en su local, entre a la carpera romycaicedo/install/here/ alli podrá ejecutar los test con el comando 
+> ./node_modules/kraken-node/bin/kraken-node run
+
+> *Nota: Revisamos con los tutores y las pruebas a ratos salen exitosas completas en otro casos da error por ejemplo
+> target closed o time out sin haber cambiado nada.
 > 
 ## 📒 Pasos para ejecutar los escenarios de prueba con Cypress 🐢
 > **Inserte aqui pasos**
