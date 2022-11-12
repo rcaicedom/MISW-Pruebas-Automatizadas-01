@@ -13,9 +13,12 @@
 | ------ | ---- |
 | LogIn a la aplicación  | |
 | Añadir miembros ||
+| Eliminar Miembros ||
 | Crear Tags ||
 | Crear Post ||
-| Registro para crear cuenta ||
+| Crear page ||
+| Cambiar datos profile ||
+
 
 |#| Escenarios de pruebas Kraken 🐙 | Asignado a |
 |--- |------ |----|
@@ -29,7 +32,7 @@
 |8| Crear y eliminar un page|Andres Sanchez|
 |9| Crear draft page, ir a lista y verificar que exista|Andres Sanchez|
 |10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado|Andres Sanchez|
-|11| Login y Crear miembo |Romy Caicedo|
+|11| Login y Crear miembro |Romy Caicedo|
 |12| Login y editar profile |Romy Caicedo|
 |13| Crear tag interno |Romy Caicedo|
 |14| Crear tag publico |Romy Caicedo|
@@ -42,7 +45,7 @@
 
 
 ## 📒 Pasos para ejecutar los escenarios de prueba con Kraken 🐙
-> **Inserte aqui pasos**
+> **Pasos primero 10 test**
 > 
 > Add pasos
 > 
