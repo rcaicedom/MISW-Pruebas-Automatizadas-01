@@ -9,15 +9,16 @@
 
 ## Funcionalidades seleccionadas
 
-| Funcionalidad | Descripcion |
-| ------ | ---- |
-| LogIn a la aplicación  | |
-| Añadir miembros ||
-| Eliminar Miembros ||
-| Crear Tags ||
-| Crear Post ||
+| Funcionalidad |
+| ------ |
+| LogIn a la aplicación  |
+| Añadir miembros |
+| Eliminar Miembros |
+| Crear Tags |
+| Crear Post |
 | Crear page ||
-| Cambiar datos profile ||
+| Cambiar datos profile |
+| Cambiar datos de navegacion |
 
 |#| Escenarios de pruebas Kraken 🐙 | Asignado a |
 |--- |------ |----|
