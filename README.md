@@ -45,11 +45,20 @@
 
 
 ## 📒 Pasos para ejecutar los escenarios de prueba con Kraken 🐙
-> **Pasos primero 10 test**
+**Pasos primeros 10 test**
 > 
-> Add pasos
+> Al tener el repositorio en su local, entre a la carpeta Kraken alli podrá ejecutar los test con el comando 
+> ./node_modules/kraken-node/bin/kraken-node run
+
+**Pasos siguientes 10 test**
+
+> Al tener el repositorio en su local, entre a la carpera romycaicedo/install/here/ alli podrá ejecutar los test con el comando 
+> ./node_modules/kraken-node/bin/kraken-node run
+
+> *Nota: Revisamos con los tutores y las pruebas a ratos salen exitosas completas en otro casos da error por ejemplo
+> target closed o time out sin haber cambiado nada.
 > 
-## 📒 Pasos para ejecutar los escenarios de prueba con XXX
+## 📒 Pasos para ejecutar los escenarios de prueba con Cypress
 > **Inserte aqui pasos**
 > 
 > Add pasos
