@@ -1,4 +1,4 @@
-# Ejercicio Kraken 🐙 y ...
+# Ejercicio Kraken 🐙 y Cypress 🐢
 
 ## ✒️ Integrantes 
 
