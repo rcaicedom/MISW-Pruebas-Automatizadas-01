@@ -5,4 +5,6 @@ export function testLogin() {
 
     // {enter} causes the form to submit
     cy.get('input[name=password]').type("@123Asd456{enter}")
+
+    cy.url().should('contain', '/dashboard')
 }
