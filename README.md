@@ -76,7 +76,7 @@ npm install kraken-node -g
 
 **Pasos primeros 10 test**
 >
-> Crear un usuario en ghost con la siguiente email y password: jd.diazd1@uniandes.edu.co y @123Asd456
+> Crear un usuario en ghost con la siguiente email y password: a.sanchez2001@uniandes.edu.co y Arsenal93.
 > Al tener el repositorio en su local, entre a la carpeta Kraken alli podrá ejecutar los test con el comando 
 > ./node_modules/kraken-node/bin/kraken-node run
 
