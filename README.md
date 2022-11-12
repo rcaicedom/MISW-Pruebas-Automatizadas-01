@@ -45,6 +45,11 @@
 
 
 ## 📒 Pasos para ejecutar los escenarios de prueba con Kraken 🐙
+
+Para ejecutar estos casos debe tener intalado kraken, si no lo tiene instalelo: 
+```sh
+npm install kraken-node -g
+```
 **Pasos primeros 10 test**
 > 
 > Al tener el repositorio en su local, entre a la carpeta Kraken alli podrá ejecutar los test con el comando 
