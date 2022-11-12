@@ -17,28 +17,28 @@
 | Crear Post ||
 | Registro para crear cuenta ||
 
-| Casos de pruebas Kraken 🐙 | Descripcion |
-| ------ |----|
-| Login ||
-| Login con credenciales invalidas ||
-| Creación de cuenta formulario ||
-| Creación de cuenta formulario ||
-| Validar contraseña ||
-| Validar contraseña | |
-| Validar email ||
-| Validar email ||
-| Validar email no valida correctamente en update ||
-| Añadir miembros ||
-| Añadir miembros no valida nombre ni email bien ||
-| Validar nombre registro ||
-| Validar nombre registro ||
-| Editar Tags ||
-| Editar Tags | |
-| Crear Página ||
-| Crear Página acepta imagenes corruptas ||
-| Crear Tags ||
-| Crear Tags ||
-| Crear Tags ||
+|#| Escenarios de pruebas Kraken 🐙 | Asignado a |
+|--- |------ |----|
+|1| Crear y publicar un post|Andres Sanchez|
+|2| Crear y publicar un post en el sitio web |Andres Sanchez|
+|3| Crear un post -> editarlo -< escribir fecha de publicacion en el futuro -> verificar error  |Andres Sanchez|
+|4| Publicar una nueva página |Andres Sanchez|
+|5| Guardar pagina como borrador y publicarla |Andres Sanchez|
+|6| Crear Draft post, validarlo en la lista| Andres Sanchez|
+|7| Crear 2 post, ordenar la lista por el mas nuevo, validar en la lista que el post mas reciente esté de primeras |Andres Sanchez|
+|8| Crear y eliminar un page|Andres Sanchez|
+|9| Crear draft page, ir a lista y verificar que exista|Andres Sanchez|
+|10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado|Andres Sanchez|
+|11| Login y Crear miembo |Romy Caicedo|
+|12| Login y editar profile |Romy Caicedo|
+|13| Crear tag interno |Romy Caicedo|
+|14| Crear tag publico |Romy Caicedo|
+|15| Editar Tag interno |Romy Caicedo |
+|16| Editar Tag publico  |Romy Caicedo|
+|17| Borrar un tag y validar que ya no este en la lista |Romy Caicedo|
+|18| Editar settings general, editar title y guardar el cambio |Romy Caicedo|
+|19| Entrar a settings, entrar a navigation, cambiar nombre de navigation about, guardar cambio|Romy Caicedo|
+|20| Login y eliminar un miembro |Romy Caicedo|
 
 
 ## 📒 Pasos para ejecutar los escenarios de prueba con Kraken 🐙
