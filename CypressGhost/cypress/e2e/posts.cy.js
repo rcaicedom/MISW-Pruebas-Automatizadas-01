@@ -7,7 +7,7 @@ describe('The posts page', () => {
     // we should be redirected to /dashboard
     cy.visit('http://localhost:2368/ghost/#/posts')
 
-    cy.contains('New post').parent().click()
+    cy.wait(500).contains('New post').click()
 
     cy.url().should('contain', '/editor/post')
 

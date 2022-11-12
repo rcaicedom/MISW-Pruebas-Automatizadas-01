@@ -17,7 +17,7 @@
 | Crear Post ||
 | Registro para crear cuenta ||
 
-|#| Casos de pruebas Kraken 🐙 | Asignado a |
+|#| Escenarios de pruebas Kraken 🐙 | Asignado a |
 |--- |------ |----|
 |1| Crear y publicar un post|Andres Sanchez|
 |2| Crear y publicar un post en el sitio web |Andres Sanchez|
@@ -40,13 +40,35 @@
 |19| Entrar a settings, entrar a navigation, cambiar nombre de navigation about, guardar cambio|Romy Caicedo|
 |20| Login y eliminar un miembro |Romy Caicedo|
 
+| #   | Escenarios de pruebas Cypress 🐢                                                                               | Asignado a     |
+|-----|----------------------------------------------------------------------------------------------------------------|----------------|
+|1| Crear y publicar un post                                                                                       | Jesus Diaz     |
+|2| Crear y publicar un post en el sitio web                                                                       | Jesus Diaz     |
+|3| Crear un post -> editarlo -< escribir fecha de publicacion en el futuro -> verificar error                     | Jesus Diaz     |
+|4| Publicar una nueva página                                                                                      | Jesus Diaz     |
+|5| Guardar pagina como borrador y publicarla                                                                      | Jesus Diaz     |
+|6| Crear Draft post, validarlo en la lista                                                                        | Jesus Diaz     |
+|7| Crear 2 post, ordenar la lista por el mas nuevo, validar en la lista que el post mas reciente esté de primeras | Jesus Diaz     |
+|8| Crear y eliminar un page                                                                                       | Jesus Diaz     |
+|9| Crear draft page, ir a lista y verificar que exista                                                            | Jesus Diaz     |
+|10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado         | Jesus Diaz     |
+|11| Login y Crear miembo                                                                                           | Juan Hernandez |
+|12| Login y editar profile                                                                                         | Juan Hernandez   |
+|13| Crear tag interno                                                                                              | Juan Hernandez   |
+|14| Crear tag publico                                                                                              | Juan Hernandez   |
+|15| Editar Tag interno                                                                                             | Juan Hernandez   |
+|16| Editar Tag publico                                                                                             | Juan Hernandez   |
+|17| Borrar un tag y validar que ya no este en la lista                                                             | Juan Hernandez  |
+|18| Editar settings general, editar title y guardar el cambio                                                      | Juan Hernandez   |
+|19| Entrar a settings, entrar a navigation, cambiar nombre de navigation about, guardar cambio                     | Juan Hernandez  |
+|20| Login y eliminar un miembro                                                                                    | Juan Hernandez  |
 
 ## 📒 Pasos para ejecutar los escenarios de prueba con Kraken 🐙
 > **Inserte aqui pasos**
 > 
 > Add pasos
 > 
-## 📒 Pasos para ejecutar los escenarios de prueba con XXX
+## 📒 Pasos para ejecutar los escenarios de prueba con Cypress 🐢
 > **Inserte aqui pasos**
 > 
 > Add pasos
