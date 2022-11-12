@@ -52,16 +52,17 @@
 |8| Crear y eliminar un page                                                                                       | Jesus Diaz     |
 |9| Crear draft page, ir a lista y verificar que exista                                                            | Jesus Diaz     |
 |10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado         | Jesus Diaz     |
-|11| Login y Crear miembo                                                                                           | Juan Hernandez |
-|12| Login y editar profile                                                                                         | Juan Hernandez   |
-|13| Crear tag interno                                                                                              | Juan Hernandez   |
-|14| Crear tag publico                                                                                              | Juan Hernandez   |
-|15| Editar Tag interno                                                                                             | Juan Hernandez   |
-|16| Editar Tag publico                                                                                             | Juan Hernandez   |
-|17| Borrar un tag y validar que ya no este en la lista                                                             | Juan Hernandez  |
-|18| Editar settings general, editar title y guardar el cambio                                                      | Juan Hernandez   |
-|19| Entrar a settings, entrar a navigation, cambiar nombre de navigation about, guardar cambio                     | Juan Hernandez  |
-|20| Login y eliminar un miembro                                                                                    | Juan Hernandez  |
+|11| Login y Crear miembro                                                                                          | Juan Hernandez |
+|12| Login y editar profile                                                                                         | Juan Hernandez  |
+|13| Crear tag interno                                                                                              | Juan Hernandez  |
+|14| Crear tag publico                                                                                              | Juan Hernandez  |
+|15| Editar Tag interno                                                                                             | Juan Hernandez  |
+|16| Editar Tag publico                                                                                             | Juan Hernandez  |
+|17| Borrar un tag publico y validar que ya no este en la lista                                                     | Juan Hernandez  |
+|18| Borrar un tag interno y validar que ya no este en la lista                                                     | Juan Hernandez  |
+|19| Editar settings general, editar title y guardar el cambio                                                      | Juan Hernandez  |
+|20| Entrar a settings, entrar a navigation, cambiar el nombre de la primera "primary navigation", guardar cambios  | Juan Hernandez  |
+|21| Login y eliminar un miembro                                                                                    | Juan Hernandez  |
 
 ## 📒 Pasos para ejecutar los escenarios de prueba con Kraken 🐙
 > **Inserte aqui pasos**
