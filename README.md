@@ -87,5 +87,12 @@ npm install kraken-node -g
 > 
 ## 📒 Pasos para ejecutar los escenarios de prueba con Cypress 🐢
 > **Inserte aqui pasos**
+
+```sh
+npm install kraken-node -g
+```
+>
+> Crear un usuario en ghost con la siguiente email y password: jd.diazd1@uniandes.edu.co y @123Asd456
+
 > 
-> Add pasos
+> ejecutar el siguiente comando: ./node_modules/.bin/cypress run 
