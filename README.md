@@ -113,8 +113,8 @@ npm install kraken-node -g
 |3| Crear un post -> editarlo -< escribir fecha de publicacion en el futuro -> verificar error  |
 |4| Publicar una nueva página |
 |5| Guardar pagina como borrador y publicarla |
-|6| Login y Crear miembro |
-|7| Login y editar profile |
-|8| Crear tag interno |
-|9| Crear tag publico |
-|10| Editar Tag interno |
+|6| Crear Draft post, validarlo en la lista
+|7| Crear 2 post, ordenar la lista por el mas nuevo, validar en la lista que el post mas reciente esté de primeras
+|8| Crear y eliminar un page|Andres Sanchez|
+|9| Crear draft page, ir a lista y verificar que exista
+|10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado
