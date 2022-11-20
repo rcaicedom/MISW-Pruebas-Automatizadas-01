@@ -103,3 +103,17 @@ npm install kraken-node -g
 
 > 
 > ejecutar el siguiente comando: ./node_modules/.bin/cypress run 
+
+
+|#| Descripciónn Escenarios de pruebas Semana 6 PRV 🐙 |
+|--- |------ |
+|1| Crear y publicar un post|
+|2| Crear y publicar un post en el sitio web |
+|3| Crear un post -> editarlo -< escribir fecha de publicacion en el futuro -> verificar error  |
+|4| Publicar una nueva página |
+|5| Guardar pagina como borrador y publicarla |
+|6| Login y Crear miembro |
+|7| Login y editar profile |
+|8| Crear tag interno |
+|9| Crear tag publico |
+|10| Editar Tag interno |
