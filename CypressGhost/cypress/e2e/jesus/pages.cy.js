@@ -4,7 +4,7 @@ import {faker} from "@faker-js/faker";
 function testCreatePage() {
   const title = faker.lorem.word()
 
-  cy.visit('http://localhost:2368/ghost/#/pages')
+  cy.visit('http://localhost:3001/ghost/#/pages')
 
   cy.wait(1000).contains('New page').click()
 
@@ -12,6 +12,7 @@ function testCreatePage() {
 
   cy.get('textarea.gh-editor-title').type(title)
   cy.get('div.koenig-editor__editor').type(faker.lorem.paragraphs(1))
+  cy.screenshot()
   return title
 }
 
@@ -21,10 +22,7 @@ describe('The pages page', () => {
     const title = testCreatePage();
 
     cy.contains('Publish').click()
-    cy.wait(1000).contains('Continue, final review →').click()
-    cy.wait(1000).contains('Publish page, right now').click()
-
-    cy.wait(500).get('div.gh-post-bookmark-title').should('contain', title)
+    cy.wait(1000).get('.ember-basic-dropdown-content .gh-publishmenu-button').contains('Publish').click()
   })
 
   it('successfully create draft, then publish', () => {
@@ -33,13 +31,11 @@ describe('The pages page', () => {
 
     cy.contains('Pages').click()
 
-    cy.wait(500).get('ol.pages-list > .gh-posts-list-item').first().click();
-
-    cy.get('.gh-editor-post-status').should('contain', 'Draft')
+    cy.wait(500).get('ol.gh-list > .gh-posts-list-item').first().contains('Draft')
+    cy.wait(500).get('ol.gh-list > .gh-posts-list-item').first().click();
 
     cy.contains('Publish').click()
-    cy.wait(1000).contains('Continue, final review →').click()
-    cy.wait(1000).contains('Publish page, right now').click()
+    cy.wait(1000).get('.ember-basic-dropdown-content').contains('Publish').click()
   })
 
   it('successfully create and delete', () => {
@@ -47,20 +43,20 @@ describe('The pages page', () => {
     testCreatePage();
 
     cy.contains('Publish').click()
-    cy.wait(1000).contains('Continue, final review →').click()
-    cy.wait(1000).contains('Publish page, right now').click()
+    cy.wait(1000).get('.ember-basic-dropdown-content .gh-publishmenu-button').contains('Publish').click()
 
-    cy.visit('http://localhost:2368/ghost/#/pages')
+    cy.wait(2000)
+    cy.contains('Pages').click()
 
-    cy.wait(500).get('.gh-contentfilter').contains('Newest first').click()
-    cy.wait(500).get('.ember-power-select-options').contains('Recently updated').click()
+    cy.wait(500).get('ol.gh-list > .gh-posts-list-item').first().click();
 
-    cy.wait(500).get('ol.pages-list > .gh-posts-list-item').first().click();
-
-    cy.wait(500).get('.settings-menu-toggle').click();
+    cy.wait(500).get('.post-settings').click();
 
     cy.wait(500).contains('Delete page').click()
     cy.wait(500).contains('Delete').click({force: true})
+
+    cy.wait(500)
+    cy.screenshot()
   })
 
   it('successfully create draft', () => {
@@ -69,14 +65,11 @@ describe('The pages page', () => {
 
     cy.contains('Pages').click()
 
-    cy.wait(500).get('.gh-contentfilter').contains('Newest first').click()
-    cy.wait(500).get('.ember-power-select-options').contains('Recently updated').click()
-
-    cy.wait(500).get('ol.pages-list > .gh-posts-list-item').first().get('.gh-content-entry-title').should(
+    cy.wait(500).get('ol.gh-list > .gh-posts-list-item').first().get('.gh-content-entry-title').should(
         'contain', title
     )
 
-    cy.wait(500).get('ol.pages-list > .gh-posts-list-item').first().contains('Draft')
+    cy.wait(500).get('ol.gh-list > .gh-posts-list-item').first().contains('Draft')
   })
 
   it('successfully create and edit with invalid date', () => {
@@ -84,19 +77,18 @@ describe('The pages page', () => {
     testCreatePage();
 
     cy.contains('Publish').click()
-    cy.wait(1000).contains('Continue, final review →').click()
-    cy.wait(1000).contains('Publish page, right now').click()
+    cy.wait(1000).get('.ember-basic-dropdown-content .gh-publishmenu-button').contains('Publish').click()
 
-    cy.visit('http://localhost:2368/ghost/#/pages')
+    cy.wait(2000)
+    cy.contains('Pages').click()
 
-    cy.wait(500).get('.gh-contentfilter').contains('Newest first').click()
-    cy.wait(500).get('.ember-power-select-options').contains('Recently updated').click()
-
-    cy.wait(500).get('ol.pages-list > .gh-posts-list-item').first().click();
-    cy.wait(500).get('.settings-menu-toggle').click();
+    cy.wait(500).get('ol.gh-list > .gh-posts-list-item').first().click();
+    cy.wait(500).get('.post-settings').click();
     cy.wait(500).get('.gh-date-time-picker-date > input').clear()
     cy.wait(500).get('.gh-date-time-picker-date > input').type('1992-23-21', {force: true})
     cy.wait(500).get('.gh-date-time-picker-date > input').blur()
     cy.wait(500).get('.gh-date-time-picker-error').should('contain', 'Invalid date')
+    cy.wait(500)
+    cy.screenshot()
   })
 })
