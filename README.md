@@ -83,7 +83,7 @@ npm install kraken-node -g
 > ./node_modules/kraken-node/bin/kraken-node run
 
 **Pasos siguientes 10 test**
-
+> Para este caso levantar ghost en el puerto 2370
 > Crear un usuario en ghost con la siguiente email y password: r.caicedom@uniandes.edu.co y testpruebas
 >
 > Al tener el repositorio en su local, entre a la carpera romycaicedo/install/here/ alli podrá ejecutar los test con el comando 
@@ -92,6 +92,41 @@ npm install kraken-node -g
 > *Nota: Revisamos con los tutores y las pruebas a ratos salen exitosas completas en otro casos da error por ejemplo
 > target closed o time out sin haber cambiado nada.
 > 
+
+## 📒 Pasos para ejecutar los escenarios de prueba con Kraken version 3.42🐙
+
+Para ejecutar estos casos debe tener intalado kraken, si no lo tiene instalelo: 
+```sh
+npm install kraken-node -g
+```
+>
+
+**Pasos primeros 10 test**
+>
+> Se debe ejecutar el siguiente comando:
+docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.42 ghost:3.42
+
+Una vez la aplicación este corriendo en docker se debe crear un usuario con los siguientes datos:
+usuario: a.sanchez2001@uniandes.edu.co
+contraseña: Arsenal93.
+
+Pararse en el sigueinte path: Andres%20Sanchez%20semana%206/Ghost_old_version/features
+Y ejecutar el siguiente comando: ./node_modules/kraken-node/bin/kraken-node run
+
+**Pasos siguientes 10 test**
+
+
+> Se debe ejecutar el siguiente comando:
+docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.42 ghost:3.42
+
+Una vez la aplicación este corriendo en docker se debe crear un usuario en ghost con la siguiente email y password: r.caicedom@uniandes.edu.co y testpruebas
+Pararse en el sigueinte path: /romycaicedosemana6/install/here
+Y ejecutar el siguiente comando: ./node_modules/kraken-node/bin/kraken-node run
+>
+
+> *Nota: Al igual que la semana anterior, al añadir la funcion para tomar screens en un folder especifico y con nombre personalizado se generan timeout en los test, al retiralos estos ejecutan con normalidad , lo mismo ocurria la semana pasa con los And i wait for n seconds, por tamto se modificaron para ser exitosos en la version pero con los screen en las carpetas que genera kraken.
+> 
+
 ## 📒 Pasos para ejecutar los escenarios de prueba con Cypress 🐢
 > **Inserte aqui pasos**
 
@@ -103,6 +138,27 @@ npm install kraken-node -g
 
 > 
 > ejecutar el siguiente comando: ./node_modules/.bin/cypress run 
+> 
+## 📒 Pasos para ejecutar los escenarios de prueba con Cypress version 3.42 🐢
+
+```sh
+docker run -d -e url=http://localhost:3001 -p 3001:2368 --name ghost_3.42 ghost:3.42
+```
+```sh
+npm install kraken-node -g
+```
+>
+> Crear un usuario en ghost con la siguiente email y password: jd.diazd1@uniandes.edu.co y @123Asd456
+
+> 
+> ejecutar el siguiente comando: ./node_modules/.bin/cypress run 
+
+## 📒 Pasos para revisar los reportes HTML resultado de Resemble JS 
+> Descarge en zip o de la forma de su preferencia el repositorio
+> En este repositorio ingrese a la ruta Resemble alli encontrará el script creado para la comparación.
+
+> Ingrese a la ruta Resemble/results alli encontrará dos carpetas de nombre 2022-11-20T23.41.56.820Z y 2022-11-20T23.42.45.708Z (tuvimos que ejecutar las pruebas en dos partes dado que todas en una sola noa generaba error), en cada una de estas encuentra los screenshot y un report.html
+> Abra en us navegador los archivos html para visualizar los reportes.
 
 
 ## Funcionalidades seleccionadas PRV
