@@ -6,7 +6,7 @@ describe('The posts page', () => {
       cy.screenshot('screenshot_semana_6/navigation/login');
 
       cy.wait(1000)
-      cy.visit("http://localhost:2368/ghost/#/settings");
+      cy.visit("http://localhost:3001/ghost/#/settings");
       cy.screenshot('screenshot_semana_6/navigation/redirect-settings');
 
       cy.wait(500)

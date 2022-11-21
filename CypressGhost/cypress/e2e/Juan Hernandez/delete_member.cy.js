@@ -6,7 +6,7 @@ describe('The posts page', () => {
       cy.screenshot('screenshot_semana_6/delete_member/login');
 
       cy.wait(1000)
-      cy.visit("http://localhost:2368/ghost/#/members/new");
+      cy.visit("http://localhost:3001/ghost/#/members/new");
       cy.screenshot('screenshot_semana_6/delete_member/visit_member');
       
       cy.wait(500)
@@ -22,7 +22,7 @@ describe('The posts page', () => {
       cy.screenshot('screenshot_semana_6/delete_member/click-save');
 
       cy.wait(500)
-      cy.visit("http://localhost:2368/ghost/#/members");
+      cy.visit("http://localhost:3001/ghost/#/members");
       cy.screenshot('screenshot_semana_6/delete_member/redirect-member');
 
       cy.wait(500)

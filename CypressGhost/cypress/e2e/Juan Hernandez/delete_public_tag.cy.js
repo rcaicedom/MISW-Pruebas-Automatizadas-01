@@ -6,7 +6,7 @@ describe('The posts page', () => {
       cy.screenshot('screenshot_semana_6/delete_public_tag/login');
 
       cy.wait(1000)
-      cy.visit("http://localhost:2368/ghost/#/tags");
+      cy.visit("http://localhost:3001/ghost/#/tags");
       cy.screenshot('screenshot_semana_6/delete_public_tag/redirect-tags');
       
       cy.wait(500)
@@ -30,7 +30,7 @@ describe('The posts page', () => {
       cy.screenshot('screenshot_semana_6/delete_public_tag/click-save-tags');
 
       cy.wait(1000)
-      cy.visit("http://localhost:2368/ghost/#/tags");
+      cy.visit("http://localhost:3001/ghost/#/tags");
       cy.screenshot('screenshot_semana_6/delete_public_tag/redirect-tags2');
       
       cy.wait(500)

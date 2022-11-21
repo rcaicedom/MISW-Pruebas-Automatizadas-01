@@ -7,14 +7,13 @@ describe('The posts page', () => {
 
       //first create the tag
       cy.wait(1000)
-      cy.visit("http://localhost:2368/ghost/#/tags");
+      cy.visit("http://localhost:3001/ghost/#/tags");
       cy.screenshot('screenshot_semana_6/edit_public_tags/redirect-tags');
 
-      cy.wait(500)
+      cy.wait(2000)
       cy.get('ol').should('have.class', 'tags-list').first().click();
-      cy.screenshot('screenshot_semana_6/edit_public_tags/search-tag');
 
-      cy.wait(500)
+      cy.wait(2000)
       cy.get('input[name=name]').clear();
       cy.get('input[name=name]').type("aut-public-modified");
       cy.screenshot('screenshot_semana_6/edit_public_tags/modified_input');
@@ -31,7 +30,7 @@ describe('The posts page', () => {
       cy.screenshot('screenshot_semana_6/edit_public_tags/click-saved');
 
       cy.wait(1000)
-      cy.visit("http://localhost:2368/ghost/#/tags");
+      cy.visit("http://localhost:3001/ghost/#/tags");
       cy.screenshot('screenshot_semana_6/edit_public_tags/redirect-settings');
       
       cy.wait(500)

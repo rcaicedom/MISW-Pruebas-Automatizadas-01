@@ -7,7 +7,7 @@ describe('The posts page', () => {
 
       //first create the tag
       cy.wait(1000)
-      cy.visit("http://localhost:2368/ghost/#/tags");
+      cy.visit("http://localhost:3001/ghost/#/tags");
       cy.screenshot('screenshot_semana_6/edit_intern_tag/redirect-tags');
       
       cy.wait(500)
@@ -33,7 +33,7 @@ describe('The posts page', () => {
       cy.screenshot('screenshot_semana_6/edit_intern_tag/click-save');
 
       cy.wait(1000)
-      cy.visit("http://localhost:2368/ghost/#/tags");
+      cy.visit("http://localhost:3001/ghost/#/tags");
       cy.screenshot('screenshot_semana_6/edit_intern_tag/redirect-tags');
       
       cy.wait(500)

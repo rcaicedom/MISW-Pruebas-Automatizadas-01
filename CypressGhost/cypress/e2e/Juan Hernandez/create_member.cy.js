@@ -6,7 +6,7 @@ describe('The create member page', () => {
       cy.screenshot('screenshot_semana_6/create_member/login');
 
       cy.wait(1000)
-      cy.visit("http://localhost:2368/ghost/#/members/new");
+      cy.visit("http://localhost:3001/ghost/#/members/new");
       cy.screenshot('screenshot_semana_6/create_member/create-member');
       
       var x = Math.floor(Math.random()*10000);
@@ -26,7 +26,7 @@ describe('The create member page', () => {
 
 
       cy.wait(500)
-      cy.visit("http://localhost:2368/ghost/#/members");
+      cy.visit("http://localhost:3001/ghost/#/members");
       cy.screenshot('screenshot_semana_6/create_member/visit-members');
     })
 })

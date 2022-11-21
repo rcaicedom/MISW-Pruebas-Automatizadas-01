@@ -6,7 +6,7 @@ describe('Create intern Tag', () => {
       cy.screenshot('screenshot_semana_6/intern-tag/login');
 
       cy.wait(1000)
-      cy.visit("http://localhost:2368/ghost/#/tags");
+      cy.visit("http://localhost:3001/ghost/#/tags");
       cy.screenshot('screenshot_semana_6/intern-tag/redirect-tags');
       
       cy.wait(500)
@@ -30,7 +30,7 @@ describe('Create intern Tag', () => {
       cy.screenshot('screenshot_semana_6/intern-tag/click-save');
 
       cy.wait(1000)
-      cy.visit("http://localhost:2368/ghost/#/tags");
+      cy.visit("http://localhost:3001/ghost/#/tags");
       cy.screenshot('screenshot_semana_6/intern-tag/redirect-tags-2');
       
       cy.wait(500)
