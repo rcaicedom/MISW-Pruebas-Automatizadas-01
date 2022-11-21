@@ -160,6 +160,9 @@ npm install kraken-node -g
 > Ingrese a la ruta Resemble/results alli encontrará dos carpetas de nombre 2022-11-20T23.41.56.820Z y 2022-11-20T23.42.45.708Z (tuvimos que ejecutar las pruebas en dos partes dado que todas en una sola noa generaba error), en cada una de estas encuentra los screenshot y un report.html
 > Abra en us navegador los archivos html para visualizar los reportes.
 
+## 🎥 Video semana 6 
+> Puede encontrar nuestro video de la semana en la wiki del proyecto, alli hablamos de el impacto de pruebas fallidas y exitosas
+y demas procedimientos, decisiones y resultados de la semana.
 
 ## Funcionalidades seleccionadas PRV
 |#| Descripciónn Escenarios de pruebas Semana 6 PRV 🐙 |
