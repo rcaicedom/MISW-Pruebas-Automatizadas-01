@@ -1,4 +1,4 @@
-# Ejercicio Kraken 🐙 y ...
+# Ejercicio Kraken 🐙 y Cypress 🐢
 
 ## ✒️ Integrantes 
 
@@ -9,15 +9,16 @@
 
 ## Funcionalidades seleccionadas
 
-| Funcionalidad | Descripcion |
-| ------ | ---- |
-| LogIn a la aplicación  | |
-| Añadir miembros ||
-| Eliminar Miembros ||
-| Crear Tags ||
-| Crear Post ||
+| Funcionalidad |
+| ------ |
+| LogIn a la aplicación  |
+| Añadir miembros |
+| Eliminar Miembros |
+| Crear Tags |
+| Crear Post |
 | Crear page ||
-| Cambiar datos profile ||
+| Cambiar datos profile |
+| Cambiar datos de navegacion |
 
 |#| Escenarios de pruebas Kraken 🐙 | Asignado a |
 |--- |------ |----|
@@ -72,13 +73,19 @@ Para ejecutar estos casos debe tener intalado kraken, si no lo tiene instalelo:
 ```sh
 npm install kraken-node -g
 ```
+>
+
 **Pasos primeros 10 test**
-> 
+>
+> Crear un usuario en ghost con la siguiente email y password: a.sanchez2001@uniandes.edu.co y Arsenal93.
+
 > Al tener el repositorio en su local, entre a la carpeta Kraken alli podrá ejecutar los test con el comando 
 > ./node_modules/kraken-node/bin/kraken-node run
 
 **Pasos siguientes 10 test**
 
+> Crear un usuario en ghost con la siguiente email y password: r.caicedom@uniandes.edu.co y testpruebas
+>
 > Al tener el repositorio en su local, entre a la carpera romycaicedo/install/here/ alli podrá ejecutar los test con el comando 
 > ./node_modules/kraken-node/bin/kraken-node run
 
@@ -96,3 +103,18 @@ npm install kraken-node -g
 
 > 
 > ejecutar el siguiente comando: ./node_modules/.bin/cypress run 
+
+
+## Funcionalidades seleccionadas PRV
+|#| Descripciónn Escenarios de pruebas Semana 6 PRV 🐙 |
+|--- |------ |
+|1| Crear y publicar un post|
+|2| Crear y publicar un post en el sitio web |
+|3| Crear un post -> editarlo -< escribir fecha de publicacion en el futuro -> verificar error  |
+|4| Publicar una nueva página |
+|5| Guardar pagina como borrador y publicarla |
+|6| Crear Draft post, validarlo en la lista
+|7| Crear 2 post, ordenar la lista por el mas nuevo, validar en la lista que el post mas reciente esté de primeras
+|8| Crear y eliminar un page|Andres Sanchez|
+|9| Crear draft page, ir a lista y verificar que exista
+|10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado
