@@ -1,0 +1,4 @@
+# ignore all bak
+*.bak
+# ignore all DS
+*.DS_Store
