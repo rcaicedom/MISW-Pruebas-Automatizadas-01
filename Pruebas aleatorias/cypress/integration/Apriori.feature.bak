@@ -1,0 +1,31 @@
+Feature: Forms with apriori data pool
+
+  I want to validate user input on the forms
+
+  @focus
+  Scenario: Login with short password
+    Given I open Ghost admin page
+    When I put "a correct email" on the "login_email" element
+    And I put "a short password" on the "login_password" element
+    And I click the "login_button" element
+    Then I see "There is no user with that email address." on the screen
+	
+  @focus
+  Scenario: Login with long password
+    Given I open Ghost admin page
+    When I put "a correct email" on the "login_email" element
+    And I put "a long password" on the "login_password" element
+    And I click the "login_button" element
+    Then I see "There is no user with that email address." on the screen
+  
+  @focus
+  Scenario: Create tag with valid meta title
+    Given I open Ghost admin page
+    And I login into the admin page
+    And I go to the tags page
+    When I go to the new tag page
+    And I put "correct tag title" on the "tag_title" element
+    And I expand tag Metadata
+    And I put "valid site title" on the "tag_meta_title" element
+    And I click save tag
+    Then I see "Delete tag" on the screen
