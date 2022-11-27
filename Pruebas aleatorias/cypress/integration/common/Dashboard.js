@@ -2,6 +2,7 @@ const selLinkNewPost = "a.gh-nav-new-post";
 const selLinkTags = "a.ember-view";
 const selLinkPosts = "a.ember-view";
 const selLinkPages = "a.ember-view";
+const selLinkMembers = "a.ember-view";
 const selHeadingSiteTitle = ".site-title";
 const selParagraphSiteDescription = ".site-header-content>p";
 const selDivMenuSiteTitle = ".gh-nav-menu-details-sitetitle";
@@ -61,5 +62,9 @@ export function clickPages() {
 }
 
 export function clickMembers() {
-  cy.get(selLinkPages).contains("Members").click();
+  cy.get(selLinkMembers).contains("Members").click();
+}
+
+export function clickPost() {
+  cy.get(selLinkMembers).contains("Post").click();
 }
