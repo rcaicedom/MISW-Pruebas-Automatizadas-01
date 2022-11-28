@@ -177,3 +177,17 @@ y demas procedimientos, decisiones y resultados de la semana.
 |8| Crear y eliminar un page|Andres Sanchez|
 |9| Crear draft page, ir a lista y verificar que exista
 |10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado
+
+📒 Pasos para ejecutar los primeros 60 escenarios de prueba con cypress 🐢
+
+Para ejecutar estos casos debe tener intalado cypress, si no lo tiene instalelo:
+
+Pasos primeros 30 casos
+
+Crear un usuario en ghost con la siguiente email y password: a.sanchez2001@uniandes.edu.co y Arsenal93.
+Pasos siguientes 30 test
+
+Crear un usuario en ghost con la siguiente email y password: r.caicedom@uniandes.edu.co y testpruebas
+
+Al tener el repositorio en su local, entre a la carpeta Pruebas Aleatorias allí de ser necesario descargar las dependencias con npm install, posteriormente ingrese el comando cypress open y añada la carpeta como proyecto, luego de correr en browser
+Allí podrá dar click en los .feature que correrán los test en ambos casos 
