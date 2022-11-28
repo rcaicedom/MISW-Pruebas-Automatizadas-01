@@ -203,25 +203,25 @@ Para ejecutar estas pruebas siga los siguientes pasos:
 -----------------------------------------------------------------------------------------------------
 **Pasos para ejecutar los escenarios 60 a 89 entregable semana 7**
 
-- Instalar Docker en el ordenador.
-- Ejecutar el siguiente comando.
+1) Instalar Docker en el ordenador.
+2) Ejecutar el siguiente comando.
 
   > 
   > docker run -d --name some-ghost -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 ghost
 
-- Acceder a la siguiente url: [http://localhost:3001/ghost/#/signin](http://localhost:3001/ghost/#/setup)
-- Crear un usuario con los siguientes criterios
+3) Acceder a la siguiente url: [http://localhost:3001/ghost/#/signin](http://localhost:3001/ghost/#/setup)
+4) Crear un usuario con los siguientes criterios
 
   > 
   > email: jd.diazd1@uniandes.edu.co
   > 
   > password: @123Asd456
-- Clonar el repositorio.
-- Una vez clonado, acceder a la carpeta del repositorio y ejecutar el comando:
+5) Clonar el repositorio.
+6) Una vez clonado, acceder a la carpeta del repositorio y ejecutar el comando:
 
   > 
   > cd CypressGhost/
-- Una vez alli es momento de instalar las dependencias, con los siguientes comandos:
+7) Una vez alli es momento de instalar las dependencias, con los siguientes comandos:
 
   > 
   > npm install cypres
