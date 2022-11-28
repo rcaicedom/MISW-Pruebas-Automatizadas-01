@@ -190,4 +190,11 @@ Pasos siguientes 30 test
 Crear un usuario en ghost con la siguiente email y password: r.caicedom@uniandes.edu.co y testpruebas
 
 Al tener el repositorio en su local, entre a la carpeta Pruebas Aleatorias allí de ser necesario descargar las dependencias con npm install, posteriormente ingrese el comando cypress open y añada la carpeta como proyecto, luego de correr en browser
-Allí podrá dar click en los .feature que correrán los test en ambos casos 
+Allí podrá dar click en los .feature que correrán los test en ambos casos
+
+## Generación de pruebas con datos aleatorios
+Para ejecutar estas pruebas siga los siguientes pasos:
+- Vaya a la ruta "MISW-Pruebas-Automatizadas-01/Pruebas aleatorias/"
+- Abrir una terminal y ejecutar el comando "npm i"
+- Ejecutar el comando npm run cypress:open
+- Hacer click en cada uno de los siguientes paquetes de tests: APriori.feature, dinamic.feature, aleatorio.feature. Cada archivo corresponde a una suite de tests con cada estrategia de generación de datos
