@@ -209,7 +209,7 @@ Para ejecutar estas pruebas siga los siguientes pasos:
   > 
   > docker run -d --name some-ghost -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 ghost
 
-- Acceder a la siguiente url: http://localhost:3001/ghost/#/signin
+- Acceder a la siguiente url: [http://localhost:3001/ghost/#/signin](http://localhost:3001/ghost/#/setup)
 - Crear un usuario con los siguientes criterios
 
   > 
