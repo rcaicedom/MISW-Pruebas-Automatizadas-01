@@ -178,7 +178,7 @@ y demas procedimientos, decisiones y resultados de la semana.
 |9| Crear draft page, ir a lista y verificar que exista
 |10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado
 
-📒 Pasos para ejecutar los primeros 60 escenarios de prueba con cypress 🐢
+#📒 Pasos para ejecutar los primeros 60 escenarios de prueba con cypress con datos aleatorios y apriori 🐢
 
 Para ejecutar estos casos debe tener intalado cypress, si no lo tiene instalelo:
 
