@@ -203,14 +203,17 @@ Para ejecutar estas pruebas siga los siguientes pasos:
 -----------------------------------------------------------------------------------------------------
 **Pasos para ejecutar los escenarios 60 a 89 entregable semana 7**
 
-- Instalar Docker en el ordenador
-> 
-> docker run -d --name some-ghost -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 ghost
-- Clonar el repositorio
-- Una vez clonado, acceder a la carpeta del repositorio y ejecutar el comando "cd CypressGhost/"
-- Una vez alli es momento de instalar las dependencias
-> 
-> ejecutar el siguiente comando: npm install cypres
-> 
-> npm install @faker-js/faker
+- Instalar Docker en el ordenador.
+- Ejecutar el siguiente comando.
+  > 
+  > docker run -d --name some-ghost -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 ghost
+- Clonar el repositorio.
+- Una vez clonado, acceder a la carpeta del repositorio y ejecutar el comando:
+  > 
+  > cd CypressGhost/
+- Una vez alli es momento de instalar las dependencias, con los siguientes comandos:
+  > 
+  > npm install cypres
+  > 
+  > npm install @faker-js/faker
 - 
