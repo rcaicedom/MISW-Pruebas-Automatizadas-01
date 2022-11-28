@@ -198,3 +198,19 @@ Para ejecutar estas pruebas siga los siguientes pasos:
 - Abrir una terminal y ejecutar el comando "npm i"
 - Ejecutar el comando npm run cypress:open
 - Hacer click en cada uno de los siguientes paquetes de tests: APriori.feature, dinamic.feature, aleatorio.feature. Cada archivo corresponde a una suite de tests con cada estrategia de generación de datos
+
+
+-----------------------------------------------------------------------------------------------------
+**Pasos para ejecutar los escenarios 60 a 89 entregable semana 7**
+
+- Instalar Docker en el ordenador
+> 
+> docker run -d --name some-ghost -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 ghost
+- Clonar el repositorio
+- Una vez clonado, acceder a la carpeta del repositorio y ejecutar el comando "cd CypressGhost/"
+- Una vez alli es momento de instalar las dependencias
+> 
+> ejecutar el siguiente comando: npm install cypres
+> 
+> npm install @faker-js/faker
+- 
