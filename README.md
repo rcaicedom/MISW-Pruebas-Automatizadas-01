@@ -205,15 +205,25 @@ Para ejecutar estas pruebas siga los siguientes pasos:
 
 - Instalar Docker en el ordenador.
 - Ejecutar el siguiente comando.
+
   > 
   > docker run -d --name some-ghost -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 ghost
+
+- Acceder a la siguiente url: http://localhost:3001/ghost/#/signin
+- Crear un usuario con los siguientes criterios
+
+  > 
+  > email: jd.diazd1@uniandes.edu.co
+  > 
+  > password: @123Asd456
 - Clonar el repositorio.
 - Una vez clonado, acceder a la carpeta del repositorio y ejecutar el comando:
+
   > 
   > cd CypressGhost/
 - Una vez alli es momento de instalar las dependencias, con los siguientes comandos:
+
   > 
   > npm install cypres
   > 
   > npm install @faker-js/faker
-- 
