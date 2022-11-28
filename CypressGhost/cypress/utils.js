@@ -11,3 +11,10 @@ export function testLogin() {
 
     cy.url().should('contain', '/ghost/#/site')
 }
+
+export function loginLatest() {
+    cy.visit("http://localhost:3001/ghost/#/signin")
+    cy.wait(1000)
+    cy.get('input[name=identification]').type("jd.diazd1@uniandes.edu.co")
+    cy.get('input[name=password]').type("@123Asd456{enter}")
+}
