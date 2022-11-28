@@ -227,3 +227,11 @@ Para ejecutar estas pruebas siga los siguientes pasos:
   > npm install cypres
   > 
   > npm install @faker-js/faker
+8) Ejecutar los casos de pruebas con cualquiera de los siguentes comandos:
+
+  > 
+  > ./node_modules/.bin/cypress run 
+  > 
+  > ./node_modules/.bin/cypress open
+
+NOTA: En caso de tener problemas con el login, repetir los pasos 1,2 y 3, borrando previamente la imagen del docker creada.
