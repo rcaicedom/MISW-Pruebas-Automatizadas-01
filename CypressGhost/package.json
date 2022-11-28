@@ -10,6 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "@faker-js/faker": "^7.6.0",
+<<<<<<< HEAD
     "cypress": "^11.2.0"
+=======
+    "cypress": "^11.0.1"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "neat-csv": "^7.0.0"
+>>>>>>> main
   }
 }

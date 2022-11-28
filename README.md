@@ -177,3 +177,61 @@ y demas procedimientos, decisiones y resultados de la semana.
 |8| Crear y eliminar un page|Andres Sanchez|
 |9| Crear draft page, ir a lista y verificar que exista
 |10| Crear page, ir a lista, editar el page, ingresamos fecha de publicación futura, validar error generado
+
+#📒 Pasos para ejecutar los primeros 60 escenarios de prueba con cypress con datos aleatorios y apriori 🐢
+
+Para ejecutar estos casos debe tener intalado cypress, si no lo tiene instalelo:
+
+Pasos primeros 30 casos
+
+Crear un usuario en ghost con la siguiente email y password: a.sanchez2001@uniandes.edu.co y Arsenal93.
+Pasos siguientes 30 test
+
+Crear un usuario en ghost con la siguiente email y password: r.caicedom@uniandes.edu.co y testpruebas
+
+Al tener el repositorio en su local, entre a la carpeta Pruebas Aleatorias allí de ser necesario descargar las dependencias con npm install, posteriormente ingrese el comando cypress open y añada la carpeta como proyecto, luego de correr en browser
+Allí podrá dar click en los .feature que correrán los test en ambos casos
+
+## Generación de pruebas con datos aleatorios
+Para ejecutar estas pruebas siga los siguientes pasos:
+- Vaya a la ruta "MISW-Pruebas-Automatizadas-01/Pruebas aleatorias/"
+- Abrir una terminal y ejecutar el comando "npm i"
+- Ejecutar el comando npm run cypress:open
+- Hacer click en cada uno de los siguientes paquetes de tests: APriori.feature, dinamic.feature, aleatorio.feature. Cada archivo corresponde a una suite de tests con cada estrategia de generación de datos
+
+
+-----------------------------------------------------------------------------------------------------
+**Pasos para ejecutar los escenarios 60 a 89 entregable semana 7**
+
+1) Instalar Docker en el ordenador.
+2) Ejecutar el siguiente comando.
+
+  > 
+  > docker run -d --name some-ghost -e NODE_ENV=development -e url=http://localhost:3001 -p 3001:2368 ghost
+
+3) Acceder a la siguiente url: [http://localhost:3001/ghost/#/signin](http://localhost:3001/ghost/#/setup)
+4) Crear un usuario con los siguientes criterios
+
+  > 
+  > email: jd.diazd1@uniandes.edu.co
+  > 
+  > password: @123Asd456
+5) Clonar el repositorio.
+6) Una vez clonado, acceder a la carpeta del repositorio y ejecutar el comando:
+
+  > 
+  > cd CypressGhost/
+7) Una vez alli es momento de instalar las dependencias, con los siguientes comandos:
+
+  > 
+  > npm install cypres
+  > 
+  > npm install @faker-js/faker
+8) Ejecutar los casos de pruebas con cualquiera de los siguentes comandos:
+
+  > 
+  > ./node_modules/.bin/cypress run 
+  > 
+  > ./node_modules/.bin/cypress open
+
+NOTA: En caso de tener problemas con el login, repetir los pasos 1,2 y 3, borrando previamente la imagen del docker creada.
